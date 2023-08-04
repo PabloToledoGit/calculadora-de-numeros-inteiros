@@ -4,6 +4,7 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
+    flex-direction: column;
 }
 
 div{
@@ -23,4 +24,23 @@ div{
 .titulo2{
 
     font-size: 1.3rem;
+}
+
+button{
+
+    width: 100px;
+}
+
+.div__botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#resultado{
+
+    margin-top: 2rem;
+    font-size: 2rem;
 }
