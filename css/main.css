@@ -1,0 +1,26 @@
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+
+    font-size: 2rem;
+}
+
+.titulo2{
+
+    font-size: 1.3rem;
+}
